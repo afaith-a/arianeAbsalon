@@ -1,0 +1,53 @@
+body {
+    background-color: #0c5325;
+}
+
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    margin-bottom: 16.2rem;
+}
+
+.login-page .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(211, 254, 200);
+    border-radius: 10px;
+    width: 250px;
+    padding: 1rem 5rem 2rem 5rem;
+}
+
+    .container h1{
+       font-size: 2.6rem;
+    }
+    
+    .container h4{
+       font-size: 1.5rem; 
+    }
+    
+    .container input {
+        width: 15rem;
+        height: 1.5rem;
+        
+    }
+    
+    .container .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+   .container .button{
+        margin-top: 1.5rem;
+        width: 15rem;
+        height: 1.5;
+        background-color: rgb(162, 230, 119);
+        border: none;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+    
